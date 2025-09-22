@@ -332,23 +332,12 @@ footer{
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
-    .introduction p { font-size: 2rem; }
-    .introduction span { font-size: 1.2rem; }
-    .skills { font-size: 2rem; }
-    .skill-list { font-size: 1.5rem; }
-    .box { max-width: 90%; }
-    .figure { width: 50%; }
+    .introduction p { font-size: 2rem; position: relative;}
+    .introduction span { font-size: 1.2rem; position: relative;}
+    .skills { font-size: 2rem; position: relative;}
+    .skill-list { font-size: 1.5rem; position: relative;}
+    .box { max-width: 90%; position: relative;}
+    .figure { width: 50%; position: relative;}
 }
 
-@media (max-width: 768px) {
-    .navbar {
-    flex-direction: column;
-    }
-    .portfolio {
-    width: 100%;
-    margin: 10px 0;
-    }
-    body {
-    font-size: 16px;
-    }
-}
+
