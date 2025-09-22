@@ -369,8 +369,11 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-    .projects{
-        font-size: 1.2rem;
+    .projects span{
+        font-size: 1.0rem;
+    }
+    .projects p  {
+        font-size: 1.0rem;
     }
 }
 
