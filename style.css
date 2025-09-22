@@ -56,7 +56,6 @@ nav a:hover{
 .container_wrapper{
     display: flex;
     align-items: flex-start;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
     max-width: 1200px;
@@ -351,7 +350,7 @@ footer{
         /* Remove position: relative; */
     }
     .figure { 
-        width: 200px; 
+        width: 600px; 
         /* Remove position: relative; */
     }
     
